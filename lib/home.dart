@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                               Container(
                                 height: 25,
                                 width: 25,
-                                color: Colors.white,
+                                color: Colors.black,
                               ), 
                           ),
                           Text('search for events'),
