@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           child: ListView(
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.only(left: 35, right: 35, bottom: 20),
+                padding: EdgeInsets.only(left: 20, right: 35, bottom: 20),
                 child: 
                 Container(
                   height: 40,
