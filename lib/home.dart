@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
           elevation: 0.0,
         ),
         body: Container(
-          color: AppColor.background,
+          color: AppColor.armyGreen,
           child: ListView(
             children: <Widget>[
               Padding(
