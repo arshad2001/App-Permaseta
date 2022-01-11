@@ -129,7 +129,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text('Item 10'),
+              title: const Text('Item 1'),
               onTap: () {
                 // Update the state of the app.
                 // ...
