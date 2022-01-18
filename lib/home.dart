@@ -61,19 +61,11 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 35, right: 35, bottom: 15),
               child: Container(
-                  height: 155,
-                  decoration: BoxDecoration(
-                    color: AppColor.paleYellow,
-                    shape: BoxShape.rectangle,
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                  ),
-                  child: Text('Nice')),
-            ),
-            Padding(
-              padding: EdgeInsets.only(left: 35, right: 35, bottom: 15),
-              child: Container(
                 height: 155,
                 decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("Assets/sandwave.png"),
+                      fit: BoxFit.cover),
                   color: AppColor.paleYellow,
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -85,6 +77,23 @@ class HomePage extends StatelessWidget {
               child: Container(
                 height: 155,
                 decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("Assets/sandwave.png"),
+                      fit: BoxFit.cover),
+                  color: AppColor.paleYellow,
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(left: 35, right: 35, bottom: 15),
+              child: Container(
+                height: 155,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("Assets/sandwave.png"),
+                      fit: BoxFit.cover),
                   color: AppColor.paleYellow,
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.all(Radius.circular(15.0)),
