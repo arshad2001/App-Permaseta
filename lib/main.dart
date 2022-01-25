@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nani/file_page.dart';
 import 'package:nani/home.dart';
 
 void main() => runApp(MyApp());
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Welcome to Flutter',
-      home: HomePage()
+      home: FilePage()
     );
   }
 }
